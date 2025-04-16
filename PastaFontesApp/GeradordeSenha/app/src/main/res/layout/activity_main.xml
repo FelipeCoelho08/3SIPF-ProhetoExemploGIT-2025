@@ -1,0 +1,32 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lottie="http://schemas.android.com/apk/res-auto"
+    android:layout_width ="match_parent"
+    android:layout_height ="match_parent"
+    android:gravity="center"
+    android:orientation ="vertical"
+    android:padding="16dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width ="200dp"
+        android:layout_height ="200dp"
+        android:layout_gravity ="center"
+        lottie:lottie_rawRes ="@raw/password_animation"
+        lottie:lottie_autoPlay ="true"
+        lottie:lottie_loop ="true"/>
+
+    <TextView
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:text="GERADOR DE SENHA"
+        android:textAlignment ="center"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btIniciar"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:layout_marginVertical ="16dp"
+        android:text="Começar" />
+</LinearLayout >
